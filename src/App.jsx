@@ -1,17 +1,17 @@
 import { Route, Routes } from "react-router-dom";
-import Collection from "@/Pages/Collection";
-import Home from "@/Pages/Home";
-import About from "@/Pages/About";
-import Contact from "@/Pages/Contact";
-import Product from "@/Pages/Product";
-import Cart from "@/Pages/Cart";
-import Login from "@/Pages/Login";
-import PlaceOrder from "@/Pages/PlaceOrder";
-import Orders from "@/Pages/Orders";
+import Collection from "@/page/Collection";
+import Home from "@/page/Home";
+import About from "@/page/About";
+import Contact from "@/page/Contact";
+import Product from "@/page/Product";
+import Cart from "@/page/Cart";
+import Login from "@/page/Login";
+import PlaceOrder from "@/page/PlaceOrder";
+import Orders from "@/page/Orders";
 import NavBar from "@/components/NavBar";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
-import Verify from "./Pages/verify";
+import Verify from "./page/Verify";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
